@@ -2,6 +2,8 @@
 
 A [Summernote](https://summernote.org/) plugin that adds a button to the toolbar allowing the user to create custom grid columns.
 
+See [example.](https://rawgit.com/perevoshchikov/summernote-grid/master/example/index.html)
+
 ## Usage
 
 ``` javascript
