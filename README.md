@@ -4,16 +4,22 @@ A [Summernote](https://summernote.org/) plugin that adds a button to the toolbar
 
 See [example.](https://rawgit.com/perevoshchikov/summernote-grid/master/example/index.html)
 
+
+
 ## Usage
 
-``` javascript
-$(document).ready(function() {
-  $('.summernote').summernote({
-    toolbar:[
-        ['insert', ['grid']]
-    ]
-  });
-});
+``` html
+<script src="https://cdn.jsdelivr.net/gh/perevoshchikov/summernote-grid@1.0.0/summernote-grid.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.summernote').summernote({
+            toolbar:[
+                ['insert', ['grid']]
+            ]
+        });
+    });
+</script>
 ```
 
 ## Full options
