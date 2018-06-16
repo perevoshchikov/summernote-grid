@@ -24,16 +24,17 @@
     </style>
 </head>
 <body>
-    <h3>Demo of summernote-grid plugin</h3>
+    <h3>Demo of <a href="https://github.com/perevoshchikov/summernote-grid">summernote-grid</a> plugin</h3>
 
     <textarea class="summernote"></textarea>
 
     <script type="text/javascript">
         $('.summernote').summernote({
-            height: 400,
+            height: 300,
             toolbar:[
                 ['style', ['bold', 'italic', 'underline', 'clear']],
-                ['insert', ['grid']]
+                ['insert', ['grid']],
+                ['misc', ['codeview']]
             ]
         });
     </script>
